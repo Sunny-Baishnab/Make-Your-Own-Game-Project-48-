@@ -38,7 +38,6 @@ function setup() {
 	spaceRanger = createSprite(400,550,50,50);
 	spaceRanger.addImage(spaceRangerImg);
 	spaceRanger.scale = 0.2;
-	spaceRanger.debug = true;
 }
 
 
@@ -210,7 +209,6 @@ function enemyship(){
 		enemy.velocityY = 4;
 		enemy.lifetime = 175;
 		enemyGroup.add(enemy);
-		enemy.debug = true;
 	}
    
 }
